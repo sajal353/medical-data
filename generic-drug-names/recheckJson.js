@@ -3,7 +3,7 @@
 import fs from 'fs';
 
 let results = [];
-const search = 'paracetamol';
+const search = 'gel';
 
 fs.readFile('./output/generic_names.json', (err, data) => {
     let parsed = JSON.parse(data);
