@@ -1,3 +1,5 @@
+/* replace search string */
+
 import fs from 'fs';
 
 let results = [];
